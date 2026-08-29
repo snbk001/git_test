@@ -10,3 +10,4 @@ FPGA Design
 Added new updates
 6
 1 change remote
+Verilog design
