@@ -4,7 +4,7 @@ module adder(
 	output reg  [3:0] sum,//sum
 	output reg        carry//carry
 	);
-	
+	//carry & sum
 	assign {carry, sum} = a + b;//result
 	
 endmodule
