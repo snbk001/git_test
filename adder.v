@@ -1,10 +1,10 @@
 module adder(
-	input  wire [3:0] a,
-	input  wire [3:0] b,
-	output reg  [3:0] sum,
-	output reg        carry
+	input  wire [3:0] a,//input 1
+	input  wire [3:0] b,//input 2
+	output reg  [3:0] sum,//sum
+	output reg        carry//carry
 	);
 	
-	assign {carry, sum} = a+b;
+	assign {carry, sum} = a + b;//result
 	
 endmodule
