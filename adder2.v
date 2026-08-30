@@ -1,3 +1,4 @@
+//Adder module
 module adder(
 	input  wire [3:0] a,//input 1
 	input  wire [3:0] b,//input 2
